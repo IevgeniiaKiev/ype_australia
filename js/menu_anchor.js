@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $('.nav__item').each(function() {
+  $('.nav__anchor').each(function() {
     $(this).on('click', function(e) {
       var hash = this.hash;
       if (hash) {
